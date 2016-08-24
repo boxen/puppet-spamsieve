@@ -1,19 +1,7 @@
 #SpamSieve
-[![Build Status](https://travis-ci.org/boxen/puppet-spamsieve.svg?branch=master)](https://travis-ci.org/boxen/puppet-spamsieve)
 
-Install [SpamSieve](http://c-command.com/spamsieve/) on OS X.
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-## Usage
-
-```puppet
-include spamsieve
-```
-
-## Required Puppet Modules
-
-* `boxen`
-
-## Development
-
-Write some code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
